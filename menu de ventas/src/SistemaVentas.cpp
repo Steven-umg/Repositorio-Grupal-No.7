@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> //hj
 #include "SistemaVentas.h"
 
 using namespace std;
@@ -108,7 +108,7 @@ void SistemaVentas::mostrarMenu() {
                 cout << "Saliendo del sistema...\n";
                 break;
             default:
-                cout << "Opcion no válida. Intente de nuevo.\n";
+                cout << "Opcion no vÃ¡lida. Intente de nuevo.\n";
         }
     } while (opcion != 5);
 }
